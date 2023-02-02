@@ -1,0 +1,7 @@
+<div class="team-container">
+  <h3>Team {{index + 1}}</h3>
+  <ul>
+    <!-- using pipe to format the value -->
+    <li *ngFor="let memberName of team">{{memberName | titlecase}}</li>
+  </ul>
+</div>
